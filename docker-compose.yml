@@ -27,6 +27,8 @@ services:
       - db_data:/var/lib/postgresql/data
     environment:
       RAILS_ENV: development
+    tty: true
+    stdin_open: true
 
   db:
     image: postgres:10.1
