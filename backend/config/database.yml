@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  min_messages: warning
+  username: postgres
+  host: db
+
+development:
+  <<: *default
+  database: rails_react_app_development
+
+test:
+  <<: *default
+  database: rails_react_app_test
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  username: postgres
+  pool: 15
