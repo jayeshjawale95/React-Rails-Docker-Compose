@@ -44,6 +44,15 @@ It is recommended to install [Docker compose](https://docs.docker.com/compose/in
     $ docker-compose run --rm --service-ports frontend bash
     ```
     The --service-ports flag is passed so that while running bash, we can hit the app at port 8080 from our web browser.
+- Run Rails console
+    ```sh
+    $ docker-compose run backend rails console
+    ```
+- Database creation and migration
+    ```sh
+    $ docker-compose run backend rake db:create db:migrate
+    ```
+
 
 # Additions Required
   - Nginx proxy to avoid cross origin issues
