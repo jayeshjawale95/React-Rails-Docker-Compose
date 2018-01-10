@@ -1,18 +1,18 @@
-# React-Webpack-Rails-Docker-Compose
+## React-Webpack-Rails-Docker-Compose
 A boiler plate for quickly building Rails API applications with React+Webpack frontend in containerised enviornment and is deployment ready for production.
 This application consists of a frontend folder which contains the user facing pages in React and a backend folder which is in Rails serving the API.
 
-# Services
+#### Services
   - Rails 5 API backend application
   - Postgres database
   - React+Webpack for Client side application
 
-# Backend App
+#### Backend App
 This is the API written in Rails 5
 
-# Frontend App
+#### Frontend App
 
-# Running the Application
+#### Running the Application
 It is recommended to install [Docker compose](https://docs.docker.com/compose/install/#install-compose) on your machine.
 
 - Build the entire application,
@@ -54,5 +54,5 @@ It is recommended to install [Docker compose](https://docs.docker.com/compose/in
     ```
 
 
-# Additions Required
+#### Additions Required
   - Nginx proxy to avoid cross origin issues
